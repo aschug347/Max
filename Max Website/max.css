@@ -1,0 +1,52 @@
+#maxpic {
+  width: 300px;
+  height: 60vh;
+  padding-top: 20px;
+  transition: 1s;
+}
+#maxpic:hover {
+  transform: rotate(360deg) scale(2);
+}
+#title {
+  font-size: 4em;
+  color: #800000;
+  font-family: 'Arial';
+  font-weight: bold;
+}
+
+.center {
+  margin: auto;
+  width: 35%;
+  border: 5px solid #800000;
+  padding: 10px;
+}
+
+.halfrow {
+  background-color:#800000;
+  color: white;
+  margin: 50px;
+  font-weight:bolder;
+  text-align: center;
+}
+body {
+  background-image: url('imgs/got.jpg');
+}
+.blinking {
+  animation:blinkingText 3s infinite;
+  padding: 70px;
+  font-size: 2em;
+  font-weight: bolder;
+}
+@keyframes blinkingText{
+  0%{ color: #800000;}
+  40%{color: transparent;}
+  50%{ color: #800000;}
+  90%{ color: transparent;}
+  100%{ color: #800000;}
+}
+button {
+  background-color: #800000;
+  border: none;
+  color: white;
+  font-weight:bolder;
+  }
